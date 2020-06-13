@@ -3,6 +3,7 @@ package Lesson_1;
 import java.util.ArrayList;
 
 public class Box<T extends Number> {
+
     ArrayList<T> arrayList = new ArrayList<>();
 
     Box(T... arr){
@@ -42,4 +43,5 @@ public class Box<T extends Number> {
     public static <T> void addOne(Box box, T elem){
         box.arrayList.add(elem);
     }
+
 }
