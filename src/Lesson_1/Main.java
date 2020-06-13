@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-
         Integer[] arrInt = {1, 2, 3, 4, 5};
         String[] arrStr = {"one", "two", "three", "fore"};
 
@@ -63,7 +62,6 @@ public class Main {
     }
 
     // Exercise 1
-
     private static <T> void changeElem(T[] arr, int i, int b){
 
         T tmp = arr[i - 1];

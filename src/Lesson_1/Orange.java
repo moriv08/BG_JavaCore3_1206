@@ -26,4 +26,5 @@ public class Orange extends Number {
     public double doubleValue() {
         return (double) weight;
     }
+
 }
