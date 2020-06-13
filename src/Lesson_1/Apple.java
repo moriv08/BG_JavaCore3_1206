@@ -26,4 +26,5 @@ public class Apple extends Number {
     public double doubleValue() {
         return (double) weight;
     }
+
 }
